@@ -96,3 +96,7 @@ section {
 .fade-in-up {
   animation: fade-in-up 1.5s ease-out 0s 1;
 }
+.RightToLifet {
+direction: rtl;
+float: right;
+}
