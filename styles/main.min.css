@@ -30,7 +30,7 @@ section {
   background: #c2615a;
 }
 #makkah-image {
-  background-image: url("/assets/images/islamic-art.jpg");
+  background-image: url("../assets/images/islamic-art.jpg");
   background-size: 200%;
   animation: animated-bg 70s ease-out infinite;
   overflow: hidden;
