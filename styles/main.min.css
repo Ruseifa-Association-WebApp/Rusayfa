@@ -145,3 +145,7 @@ background-color:  #FAFAFA ;
 .prologo{
   max-height: 200px;
 }
+
+.statistics-images {
+  max-height: 120px;
+}
