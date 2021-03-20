@@ -147,5 +147,9 @@ background-color:  #FAFAFA ;
 }
 
 .statistics-images {
-  max-height: 120px;
+  max-height: 80px;
+}
+#staticzise{
+  max-height: 200px;
+  margin-top: -60px;
 }
