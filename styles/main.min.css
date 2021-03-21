@@ -15,6 +15,9 @@ section {
   max-width: 80px;
   max-height: 80px;
 }
+#logo-2 {
+  max-width: 180px;
+}
 #navigation-list * {
   color: white;
 }
