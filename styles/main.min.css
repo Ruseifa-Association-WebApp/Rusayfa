@@ -123,7 +123,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   min-height: 300px;
 }
 #slidimgmn{
-  min-height: 714px;
+  min-height: 580px;
 }
 .carousel-control-prev,.carousel-control-next{
   background-color: #a43d36;
@@ -189,4 +189,7 @@ hr {
 }
 .instagram:hover{
   background:  radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+#mn-nhn{
+  max-width: 1200px;
 }
