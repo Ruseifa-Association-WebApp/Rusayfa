@@ -16,7 +16,7 @@ section {
   max-height: 80px;
 }
 #logo-2 {
-  max-width: 180px;
+  max-width: 150px;
 }
 #navigation-list * {
   color: white;
@@ -192,4 +192,15 @@ hr {
 }
 #mn-nhn{
   max-width: 1200px;
+}
+#estbyan{
+  max-width: 150px;
+  padding-top: 30px ;
+  padding-bottom: 30px;
+  
+  
+}
+#estbyan:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
