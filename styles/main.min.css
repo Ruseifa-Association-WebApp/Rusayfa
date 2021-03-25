@@ -96,56 +96,60 @@ section {
 .card-img-top {
   height: 200px;
 }
+@media only screen and (max-width: 600px) {
+.card-img-top {
+  height: auto;
+}
+}
+
 .fade-in-up {
   animation: fade-in-up 1.5s ease-out 0s 1;
 }
 .RightToLifet {
-direction: rtl;
-float: right;
+  direction: rtl;
+  float: right;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
-#program_a{
+#program_a {
   text-decoration: none;
 }
-#partners div{
+#partners div {
   padding: 10px;
 }
-#slidimg{
+#slidimg {
   max-width: 700px;
-  
 }
-#navslid{
+#navslid {
   min-height: 300px;
 }
-#slidimgmn{
+#slidimgmn {
   min-height: 580px;
 }
-.carousel-control-prev,.carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
   background-color: #a43d36;
   width: 50px;
   height: 50px;
-  top: calc( 50% - 25px );
+  top: calc(50% - 25px);
   border-radius: 5px;
 }
-.carousel-indicators{
+.carousel-indicators {
   background-color: #a43d36;
   opacity: 0.3;
   border-radius: 5px;
 }
-.carousel-indicators:hover{
+.carousel-indicators:hover {
   opacity: 1;
 }
-.secdit{
-background-color:  #FAFAFA ;
-
-  
+.secdit {
+  background-color: #fafafa;
 }
-.prologo{
+.prologo {
   max-height: 200px;
 }
 
@@ -154,14 +158,13 @@ background-color:  #FAFAFA ;
 }
 
 footer {
-  background-color: #A43D36;
+  background-color: #a43d36;
 }
 
 footer p {
   font-weight: bold;
   color: white;
 }
-
 
 hr {
   background-color: white;
@@ -178,32 +181,53 @@ hr {
 }
 
 .youtube:hover {
-  background-color: red;  
-  
+  background-color: red;
 }
 .facebook:hover {
-  background-color: #1877F2;
+  background-color: #1877f2;
 }
-.twitter:hover{
-  background-color: #1DA1F2;
+.twitter:hover {
+  background-color: #1da1f2;
 }
-.instagram:hover{
-  background:  radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+.instagram:hover {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 }
-#mn-nhn{
+#mn-nhn {
   max-width: 1200px;
 }
-#estbyan{
+#estbyan {
   max-width: 150px;
-  padding-top: 30px ;
+  padding-top: 30px;
   padding-bottom: 30px;
-  
-  
 }
-#estbyan:hover{
+#estbyan:hover {
   transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
-#sahmm3na_a{
+#sahmm3na_a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #navigation {
+    box-sizing: content-box;
+    position: fixed;
+    background-color: #a43d36;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+    justify-content: center;
+    box-shadow: 0 0 5px 5px #a43d3654;
+  }
+
+  #navigation ul {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  #navigation #logo-container {
+    display: none;
+  }
 }
