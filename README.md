@@ -1,5 +1,5 @@
 # Rusayfa
-a web application for Al-Rusayfa Association.
+a web application for Al-Rusayfa Association using html and bootstrap library.
 
 
 ![image](https://user-images.githubusercontent.com/73385791/112719944-b5f45400-8f0c-11eb-9e86-ff953cbf7982.png)
