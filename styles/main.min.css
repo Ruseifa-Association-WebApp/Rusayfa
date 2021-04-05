@@ -18,6 +18,9 @@ section {
 #logo-2 {
   max-width: 150px;
 }
+#logo-3{
+  max-width: 115px;
+}
 #navigation-list * {
   color: white;
 }
