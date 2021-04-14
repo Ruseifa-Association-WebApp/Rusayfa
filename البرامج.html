@@ -7,39 +7,44 @@
     <link rel="stylesheet" href="./vendor/styles/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./styles/main.min.css" />
     <link rel="stylesheet" href="./styles/new.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>جمعية الرصيفة للدعوة والإرشاد | من نحن</title>
   </head>
 
   <body>
     <!--start navigationbar-->
-    <header class="bg-primary">
-      <div class="container cotainer-fluid">
-        <div id="navigation" class="row">
-          <div class="col-auto" id="logo-container">
-            <a href="index.html"><img id="logo-3" src="assets/images/ISO logo ابيض.png" alt="iso Logo"  /></a>
-            <a href="index.html"><img id="logo-2" src="assets/images/شعار الجمعية مع الأسم.png" alt="Rusifa Logo" /></a>
-            <a href="index.html"><img id="logo" src="assets/images/شعار رمضان.png" alt="Rusifa Logo"  /></a>
-            
-          </div>
-          <ul class="nav col justify-content-end align-items-center" id="navigation-list">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">الرئيسية</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="البرامج.html">برامجنا</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="شركائنا.html">شركاؤنا</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="من-نحن.html">من نحن؟</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-primary">
+      <a href="index.html"><img id="logo-3" src="assets/images/ISO logo ابيض.png" alt="iso Logo" class="navbar-brand" /></a>
+      <a href="index.html"><img id="logo-2" src="assets/images/شعار الجمعية مع الأسم.png" alt="Rusifa Logo" class="navbar-brand" /></a>
+      <a href="index.html"><img id="logo" src="assets/images/شعار رمضان.png" alt="Rusifa Logo" class="navbar-brand" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white " href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="البرامج.html">برامجنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="شركائنا.html">شركاؤنا</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="من-نحن.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              من نحن
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="من-نحن.html">الرؤية والرسالة والأهداف</a>
+             
+            </div>
+          </li>
+        </ul>
       </div>
-      <!--end navigationbar-->
-    </header>
-
+    </nav>
     <!--start content-->
     <!--start our programs-->
     <section id="our-programs" class="bg-white">
