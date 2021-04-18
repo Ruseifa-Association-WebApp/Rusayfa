@@ -40,10 +40,12 @@ section {
   background-size: 200%;
   animation: animated-bg 70s ease-out infinite;
   overflow: hidden;
+  
 }
 #makkah-image img {
   opacity: 1;
   min-width: 100%;
+ 
 }
 #makka-image {
   position: relative;
@@ -233,4 +235,12 @@ hr {
   #navigation #logo-container {
     display: none;
   }
+}
+
+.sahmm3naAN:hover{
+  transform: scale(1.05);
+}
+#timeiconAN:hover{
+  transition: 2s;
+transform: rotateZ(360deg);
 }
