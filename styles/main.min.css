@@ -44,6 +44,7 @@ section {
   background-position-y: bottom;
   min-height: 800px;
 }
+/*
  #makkah-image::before {
   content: '';
   position: absolute;
@@ -51,15 +52,16 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../assets/images/81805.jpg");
-  opacity: 0.5;
-  filter: brightness(90%);
+  background-image: url("../assets/images/81805-removebg.png");
+  opacity: 1;
+  filter: brightness(100%);
   background-size: 200%;
   animation: animated-bg 70s ease-out infinite;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
-} 
+ 
+}  */
 #makkah-image .text {
   position: absolute;
   top: 50%;
