@@ -256,3 +256,24 @@ hr {
   transition: 2s;
 transform: rotateZ(360deg);
 }
+
+@media only screen and (max-width: 600px) {
+.maxwidthdrop{
+  max-width: 70vw;
+  overflow: hidden;
+
+}
+.textlingthDR{
+  text-overflow: clip;
+  max-width: 100%;
+  text-align: right;
+  word-wrap: break-word;
+  white-space: initial;
+}
+}
+.highttbr3at{
+  min-height: 1000px;
+}
+.widthandhightforstat{
+height: 950px;
+}
